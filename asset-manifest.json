@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/https://github.com/ashwinides/React-Assignment-Noveti/static/css/main.04109650.css",
+    "main.js": "/https://github.com/ashwinides/React-Assignment-Noveti/static/js/main.337088e2.js",
+    "static/js/787.4bc4a29d.chunk.js": "/https://github.com/ashwinides/React-Assignment-Noveti/static/js/787.4bc4a29d.chunk.js",
+    "index.html": "/https://github.com/ashwinides/React-Assignment-Noveti/index.html",
+    "main.04109650.css.map": "/https://github.com/ashwinides/React-Assignment-Noveti/static/css/main.04109650.css.map",
+    "main.337088e2.js.map": "/https://github.com/ashwinides/React-Assignment-Noveti/static/js/main.337088e2.js.map",
+    "787.4bc4a29d.chunk.js.map": "/https://github.com/ashwinides/React-Assignment-Noveti/static/js/787.4bc4a29d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04109650.css",
+    "static/js/main.337088e2.js"
+  ]
+}
