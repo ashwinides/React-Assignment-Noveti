@@ -1,0 +1,27 @@
+@import '../../stylesheets/mixins.scss';
+@import '../../stylesheets/variable.scss';
+
+
+
+.phone {
+    &__label {
+        @include text($font_size_10 , $Raisin_black, 500, normal, 19px, normal);
+        margin-bottom: 15px !important;
+
+        &__start {
+            color:$Amaranth;
+        }
+    }
+
+    &__fields {
+        gap: 1rem !important;
+
+        &__number {
+            width: 80%;
+        }
+        &__code{
+            width: 18%;
+            margin-right: 2% !important;
+        }
+    }
+}

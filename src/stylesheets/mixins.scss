@@ -1,0 +1,40 @@
+  
+  @mixin WidthHeight($width, $height) {
+    width: $width !important;
+    height: $height !important;
+  }
+  
+  @mixin SetBorder($borderColor) {
+    border: 1px solid $borderColor !important;
+    border-radius: 8px !important;
+  }
+  
+  
+  @mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  @mixin text($size, $color, $weight, $style, $height, $spacing) {
+    font-size: $size !important;
+    color: $color !important;
+    font-weight: $weight !important;
+    font-style: $style !important;
+    line-height: $height !important;
+    letter-spacing: $spacing !important;
+  }
+  
+  
+  @mixin commonLayoutWidth {
+    width: 85%;
+    margin: auto;
+  }
+  
+  @mixin commonLayoutMobileWidth {
+    width: 100%;
+    margin: 0;
+  }
+  
+  

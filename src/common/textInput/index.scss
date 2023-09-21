@@ -1,0 +1,64 @@
+@import '../../stylesheets/mixins.scss';
+@import '../../stylesheets/variable.scss';
+
+
+.text-input {
+    @include WidthHeight(100%, 60px);
+    @include text($font_size_9 , $Raisin_black, 400, normal, 12px, normal);
+
+}
+
+.MuiOutlinedInput-root {
+    font-size: $font_size_9 !important;
+    height: auto !important;
+    background-color: $Antiflash_white !important;
+}
+
+
+.MuiOutlinedInput-root .custom-adornment {
+    background-color: transparent !important;
+}
+
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    @include SetBorder($Metallic_silver);
+    height: auto !important;
+}
+
+.MuiOutlinedInput-root .MuiOutlinedInput-input:not(:placeholder-shown) {
+    background-color: white !important;
+}
+
+
+.MuiOutlinedInput-root .MuiOutlinedInput-input::placeholder {
+    @include text($font_size_9 , $Metallic_silver, 400, normal, 19px, normal);
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    @include SetBorder($Css_grey);
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    @include SetBorder($Css_grey);
+}
+
+.MuiOutlinedInput-root.Mui-focused {
+    background-color: $white !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .custom-adornment {
+    background-color: transparent !important;
+}
+
+.MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+    @include SetBorder($Deep_carmine);
+}
+
+.MuiFormHelperText-root.Mui-error {
+    color: $Deep_carmine !important;
+    position: relative !important;
+    left: -15px !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline:focus {
+    border-color: transparent !important;
+}
