@@ -64,7 +64,7 @@ const UserList = () => {
                         {userData.map((user, index) => {
                             return (
                                 <TableRow key={index}>
-                                    <TableCell>{user.id}</TableCell>
+                                    <TableCell>{index+1}</TableCell>
                                     <TableCell>{user.fname}</TableCell>
                                     <TableCell>{user.lastName}</TableCell>
                                     <TableCell>{user.email}</TableCell>
